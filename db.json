@@ -1,0 +1,49 @@
+{
+    "produtos": [
+      {
+        "id": 6,
+        "size": "2XL",
+        "color": "Maroon"
+      },
+      {
+        "id": 7,
+        "size": "M",
+        "color": "Maroon"
+      },
+      {
+        "id": 8,
+        "size": "XS",
+        "color": "Violet"
+      },
+      {
+        "id": 9,
+        "size": "3XL",
+        "color": "Red"
+      },
+      {
+        "id": 10,
+        "size": "XL",
+        "color": "Pink"
+      },
+      {
+        "size": "G",
+        "color": "Amarelo",
+        "id": 11
+      },
+      {
+        "color": "Rosa",
+        "size": "P",
+        "id": 12
+      },
+      {
+        "color": "Orange",
+        "size": "123",
+        "id": 13
+      },
+      {
+        "color": "Azul",
+        "size": "GG",
+        "id": 14
+      }
+    ]
+  }

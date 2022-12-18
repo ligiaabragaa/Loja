@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(96, 177, 42), #90ff50, rgb(114, 255, 33), rgb(68, 202, 15));
+}
+
+header div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    font-size: 34px;
+    color: rgb(2, 40, 5);
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+header h1 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+header h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+main {
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+    height: 40px;
+}
+
+main nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 550px;
+}
+
+main a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(204, 214, 222);
+    letter-spacing: 1px;
+    font-size:34px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.95;
+    cursor: pointer;
+    background-image: radial-gradient(rgb(76, 91, 111), rgb(21, 21, 185), rgb(46, 0, 119));
+}
+
+main a:hover {
+    opacity: 1;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.produtos {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    height: 150px;
+}
+
+.produtoContainerData form {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 20px;
+    width: 550px;
+}
+
+.clientes {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    height: 150px;
+}
+
+.clientes div {
+    width: 50%;
+}
+
+.pedidos {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    height: 150px;
+}
+
+.pedidos div {
+    width: 50%;
+}
+
+
+.tableData {
+    display: block;
+    position: absolute;
+}
+
+table, th, td {
+    width: 500px;
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  th, td {
+    background-color: #96D4D4;
+  }
+
+  .produtoContainerData {
+    width: 550px;
+    margin-top: 10px;
+  }
